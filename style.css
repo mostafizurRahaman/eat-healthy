@@ -20,9 +20,6 @@ body{
 }
 
 .header_sec{
-    
-}
-.header_sec{
    align-items: center;
    
 }
@@ -35,6 +32,7 @@ h1{
 }
 p{
     color:#828282;
+    
    
 }
 
@@ -89,6 +87,8 @@ h2{
 }
 .about_me p{
  color:#18191F;
+ text-align: justify;
+
 }
 .about_me img {
 width: 75%;
@@ -103,6 +103,9 @@ width: 75%;
   padding:50px 0px ;
   padding-bottom: 0;
 }
+.my_recipies .bottom_sec p{
+   text-align: justify;
+}
 .my_recipies .bottom_sec .half_sec{
   box-shadow: 2px 2px 31px rgba(0, 0, 0, 0.80);
   padding: 20px 20px 30px;
@@ -112,6 +115,7 @@ width: 75%;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
  margin-top: 5px;
+
   
   
 }
@@ -125,4 +129,53 @@ width: 75%;
     margin: 10px 0;
     text-align: center;
     color: orange;
+}
+.follower_sec{
+    background:#fff;
+}
+.follower_wrapper{
+    background: #fff;
+    box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.50) inset;
+    width: 80%;
+    margin:50px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+.follower_wrapper:hover{
+    box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.50); 
+   
+}
+.follower_sec .box{
+    width: 30%;
+    margin-right: 5%;
+    text-align: center;
+   
+
+}
+.follower_sec .box:nth-child(3){
+       margin-right: none;
+}
+.number_color{
+    color: #ff8000;
+    text-transform: uppercase;
+}
+#footer{
+    background: #000;
+    padding: 50px 20px 70px;
+    text-align: center;
+}
+#footer h2{
+    margin-bottom: 10px;
+}
+#footer P{
+    color: #fff;
+    text-align: center;
 }
