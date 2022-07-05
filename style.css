@@ -93,3 +93,36 @@ h2{
 .about_me img {
 width: 75%;
 }
+.my_recipies{
+    padding: 40px 20px;
+}
+.my_recipies .top_bar{
+   text-align: center;
+}
+.my_recipies .bottom_sec{
+  padding:50px 0px ;
+  padding-bottom: 0;
+}
+.my_recipies .bottom_sec .half_sec{
+  box-shadow: 2px 2px 31px rgba(0, 0, 0, 0.80);
+  padding: 20px 20px 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+ margin-top: 5px;
+  
+  
+}
+.my_recipies .bottom_sec .half_sec img{
+ width: 100%;
+ margin-bottom: 10px;
+}
+
+.bottom_sec h3{
+    font-size: 25px;
+    margin: 10px 0;
+    text-align: center;
+    color: orange;
+}
